@@ -34,6 +34,24 @@
       border-radius: 12px;
       display: block;
       margin: 0 auto;
+      cursor: zoom-in;
+    }
+    #lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.9);
+      z-index: 999;
+      justify-content: center;
+      align-items: center;
+      cursor: zoom-out;
+    }
+    #lightbox.active { display: flex; }
+    #lightbox img {
+      max-width: 95vw;
+      max-height: 95vh;
+      border-radius: 8px;
+      object-fit: contain;
     }
   </style>
 </head>
@@ -44,19 +62,8 @@
 
   <div class="card">
     <h2 style="margin-top:0;">Contact Us</h2>
-    <p>Have a question, found a bug, or just want to say hi? We'd love to hear from you.</p>
+    <p>Have a question or found a bug? We'd love to hear from you.</p>
     <p>Email us at: <a href="mailto:improveucontact@gmail.com">improveucontact@gmail.com</a></p>
-    <p>We typically respond within 1–2 business days.</p>
-  </div>
-
-  <div class="card">
-    <h2 style="margin-top:0;">FAQ</h2>
-    <p><strong>Is my data private?</strong><br/>
-    Yes. All your tracking data is stored locally on your device and never uploaded to our servers.</p>
-    <p><strong>How do I delete my data?</strong><br/>
-    You can delete your account and all associated data from the Profile screen inside the app.</p>
-    <p><strong>I forgot my password — what do I do?</strong><br/>
-    Tap "Forgot Password" on the login screen and we'll send you a reset link.</p>
   </div>
 
   <h2>About Us</h2>
@@ -70,9 +77,32 @@
     <img src="tomIntro.png" alt="Tom" />
   </div>
 
+  <div class="card">
+    <h2 style="margin-top:0;">FAQ</h2>
+    <p><strong>Is my data private?</strong><br/>
+    Yes. All your tracking data is stored locally on your device and never uploaded to our servers.</p>
+    <p><strong>How do I delete my data?</strong><br/>
+    You can delete your account and all associated data from the Profile screen inside the app.</p>
+    <p><strong>I forgot my password — what do I do?</strong><br/>
+    Tap "Forgot Password" on the login screen and we'll send you a reset link.</p>
+  </div>
+
   <p style="margin-top:48px; font-size:0.85em; color:#888;">
     <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; © 2026 ImproveU
   </p>
+
+  <div id="lightbox" onclick="this.classList.remove('active')">
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script>
+    document.querySelectorAll('.team-member img').forEach(img => {
+      img.addEventListener('click', () => {
+        document.getElementById('lightbox-img').src = img.src;
+        document.getElementById('lightbox').classList.add('active');
+      });
+    });
+  </script>
 
 </body>
 </html>
