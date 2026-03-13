@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImproveU - Terms of Use (EULA)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            color: #333;
+            line-height: 1.6;
+            background: #fff;
+        }
+        h1 { font-size: 24px; margin-bottom: 4px; }
+        h2 { font-size: 18px; margin-top: 28px; }
+        p, li { font-size: 15px; }
+        .date { color: #888; font-size: 14px; margin-bottom: 24px; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+    <h1>ImproveU — Terms of Use (EULA)</h1>
+    <p class="date">Last updated: March 13, 2026</p>
+
+    <p>This End User License Agreement ("Agreement") is a legal agreement between you and Thomas Alain ("Developer") for the use of the ImproveU mobile application ("App"). By downloading or using the App, you agree to these terms.</p>
+
+    <h2>1. License</h2>
+    <p>The Developer grants you a limited, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes on any Apple device you own or control, subject to the Apple Media Services Terms and Conditions.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>ImproveU is a self-improvement tracker that allows you to rate and track various areas of your life. Your tracking data (scores, notes, categories) is stored locally on your device and is not uploaded to any server.</p>
+
+    <h2>3. Account</h2>
+    <p>You may create an account using email/password, Google Sign-In, or Apple Sign-In. Your account is used for authentication purposes only. You are responsible for maintaining the confidentiality of your login credentials.</p>
+
+    <h2>4. Subscriptions and Purchases</h2>
+    <ul>
+        <li><strong>ImproveU Pro Monthly</strong> — auto-renewable subscription billed monthly at $3.99 USD. Renews automatically unless cancelled at least 24 hours before the end of the current billing period.</li>
+        <li><strong>ImproveU Pro Lifetime</strong> — one-time purchase of $29.99 USD with no recurring charges.</li>
+    </ul>
+    <p>Payment is charged to your Apple ID account at confirmation of purchase. You can manage or cancel subscriptions in your device's Settings > Apple ID > Subscriptions.</p>
+
+    <h2>5. User Data and Privacy</h2>
+    <p>All tracking data remains on your device. We do not collect, store, or share your personal tracking data. For full details, see our <a href="https://tom331.github.io/ImproveUPrivacyPolicy">Privacy Policy</a>.</p>
+
+    <h2>6. Restrictions</h2>
+    <p>You may not:</p>
+    <ul>
+        <li>Copy, modify, or distribute the App</li>
+        <li>Reverse engineer or attempt to extract the source code</li>
+        <li>Use the App for any unlawful purpose</li>
+        <li>Remove any copyright or proprietary notices</li>
+    </ul>
+
+    <h2>7. Disclaimer of Warranties</h2>
+    <p>The App is provided "as is" without warranty of any kind. The Developer does not warrant that the App will be uninterrupted, error-free, or free of harmful components. The App is not a substitute for professional medical, psychological, or health advice.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, the Developer shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the App.</p>
+
+    <h2>9. Termination</h2>
+    <p>This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically if you fail to comply with any of its terms. Upon termination, you must cease all use of the App and delete all copies.</p>
+
+    <h2>10. Changes to This Agreement</h2>
+    <p>The Developer may update this Agreement from time to time. Continued use of the App after changes constitutes acceptance of the updated terms.</p>
+
+    <h2>11. Contact</h2>
+    <p>If you have questions about this Agreement, contact us at: <a href="mailto:nextwaveappworks@gmail.com">nextwaveappworks@gmail.com</a></p>
+
+    <h2>12. Apple-Specific Terms</h2>
+    <p>This Agreement is between you and Thomas Alain only, not with Apple. Apple has no obligation to provide maintenance or support for the App. Apple is not responsible for any claims relating to the App, including product liability, legal compliance, or intellectual property. Apple and its subsidiaries are third-party beneficiaries of this Agreement.</p>
+</body>
+</html>
